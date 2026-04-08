@@ -4,7 +4,9 @@ import numpy as np
 import pickle
 import cloudpickle
 from utils import transform_text
+import nltk
 
+nltk.download('punkt_tab')
 transform_text = pickle.load(open('transform_text.pkl','rb'))
 # with open('transform_text.pkl', 'rb') as f:
 #     transform_text = cloudpickle.load(f)
