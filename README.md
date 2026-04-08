@@ -2,7 +2,7 @@
 
 A complete end-to-end Spam Detection system built using Natural Language Processing (NLP) and Machine Learning. This project classifies messages as **Spam** or **Not Spam** with high precision and reliability, and includes an interactive web interface built with Streamlit.
 
-🔗 **Live Demo:** [spam-classifier.streamlit.app/](https://spam-classifier-al.streamlit.app/)
+🔗 **Live Demo:** [spam-classifier.streamlit.app/](https://email-sms-spam-classifier-j2.streamlit.app/)
 
 
 ---
