@@ -1,0 +1,67 @@
+🚫 SPAM Messages (Label = 1)
+💰 Promotional / Scam
+
+“Congratulations! You have been selected as one of the lucky winners of our $10,000 cash prize. To claim, click the link below and provide your details. This offer is valid for the next 24 hours only, so don’t miss out on this once-in-a-lifetime opportunity!”
+
+“Hello! This is an exclusive invitation to participate in our online business program that can help you earn $5000 per week from home. No prior experience is needed. Join thousands of successful participants today by signing up immediately!”
+
+🔗 Phishing / Suspicious Links
+
+“Attention! Your account has been flagged due to unusual activity. Please verify your information by visiting the link below immediately. Failure to do so may result in account suspension. Click here to secure your account: http://secure-verification-link.com”
+
+“You have an unpaid invoice pending. Click the link to view and pay your bill to avoid late fees. This is a limited-time notice, so please act fast: www.payment-portal-example.com”
+
+📞 Call / OTP / Urgent Scams
+
+“URGENT: Your mobile number has won a free iPhone 14 Pro Max! To claim your prize, call this number now: 0300-1234567. This offer is valid for the first 100 callers only, so don’t wait!”
+
+“Your parcel delivery failed because of missing payment. Please pay a small fee to reschedule delivery within 24 hours. Visit http://fake-parcel-site.com
+ to complete the payment and avoid cancellation.”
+
+🎯 Mixed/Tricky Spam
+
+“Hi there! We noticed you were interested in our premium health supplements. As a special thank-you, we are offering a free 3-month supply if you register today. Don’t miss this limited offer — thousands have already benefited!”
+
+“Are you looking for ways to make money online? We provide step-by-step guides, mentorship, and tools that can help you earn over $1000 weekly. Join now to start your financial freedom journey!”
+
+
+
+✅ NOT SPAM Messages (Label = 0)
+👨‍👩‍👧‍👦 Personal messages
+“Hey, are we still meeting today?”
+“Call me when you reach home.”
+“Hey, its John. I got stuck in some work. I’ll send you the notes by evening. Sorry for the late reply.”
+
+🏫 Work / study related
+“Please review the document and share feedback.”
+“Meeting is scheduled at 3 PM tomorrow.”
+“Hello! Please remember to submit your assignment before the official deadline tomorrow evening. Late submissions may not be accepted, so ensure everything is properly completed and double-checked before uploading.”
+
+🛒 Legit notifications (important edge cases)
+“Good news! Your order for the items you purchased has been shipped today and is expected to arrive at your address by tomorrow afternoon.""
+“Your one-time password (OTP) for login is 839201. Please use this OTP to complete your login process. For security reasons, do not share this code with anyone, and make sure to enter it within the next 10 minutes.”
+“Payment of Rs. 500 has been received successfully.”
+
+👉 These are very important — many models wrongly classify them as spam
+
+💬 Casual chat
+“What are you doing?”
+“Let’s go out for dinner tonight.”
+“Happy birthday! 🎉”
+
+📦 Service messages
+“Your Uber ride is arriving in 2 minutes.”
+“Electricity bill is due on 15th April.”
+“Your package has been delivered.”
+🧪 Pro Testing Tip (Very Important)
+
+
+“Bhai jaldi aa, class start ho gayi hai” → NOT SPAM
+“Free paisa jeeto!!! Click karo abhi” → SPAM
+🧠 Bonus: Edge Cases (Most Important for ML)
+
+These are where models usually fail:
+
+“Free time hai? Call me” ❗ (NOT spam but contains “free”)
+“Your account is credited with salary” ❗
+“Win a chance to attend webinar” ❗ (depends on context)
